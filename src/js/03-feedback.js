@@ -29,8 +29,4 @@ const load = key => {
   }
 };
 
-const storageData = load(LOCALSTORAGE_KEY);
-if (storageData) {
-  email.value = storageData.email;
-  message.value = storageData.message;
-}
+
